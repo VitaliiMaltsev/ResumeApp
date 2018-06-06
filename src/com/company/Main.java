@@ -14,7 +14,7 @@ public class Main {
 //        TimeTread timeTread = new TimeTread();
 //        Thread thread = new Thread(timeTread);
         System.out.println(args[0] +l1);
-        SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy  HH:mm:ss");
+        SimpleDateFormat sdf = new SimpleDateFormat(" dd.MM.yyyy  HH:mm:ss");
         System.out.println(sdf.format(new Date()));
 //        thread.start();
     }
