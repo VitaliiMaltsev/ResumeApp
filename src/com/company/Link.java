@@ -11,9 +11,8 @@ public class Link {
         this.url = url;
     }
 
-    public Link(Link l1) {
-        this.name = l1.name;
-        this.url = l1.url;
+    public Link(Link link) {
+        this(link.name,link.url);
     }
 
     @Override
