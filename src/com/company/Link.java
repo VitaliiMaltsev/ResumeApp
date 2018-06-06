@@ -15,6 +15,10 @@ public class Link {
         this(link.name,link.url);
     }
 
+    public Link() {
+        this("",null);
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
