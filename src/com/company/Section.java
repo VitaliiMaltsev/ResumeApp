@@ -1,6 +1,6 @@
 package com.company;
 
 public class Section {
-    private SectionType type;
+    protected SectionType type;
 
 }
