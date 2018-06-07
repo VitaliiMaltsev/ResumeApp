@@ -1,4 +1,4 @@
-package com.company;
+package com.company.model;
 
 public class Contact {
 private final ContactType type;

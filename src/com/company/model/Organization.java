@@ -1,6 +1,5 @@
-package com.company;
+package com.company.model;
 
-import java.util.Date;
 import java.util.List;
 
 public class Organization {

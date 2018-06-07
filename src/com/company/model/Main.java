@@ -1,12 +1,8 @@
-package com.company;
-
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.List;
+package com.company.model;
 
 public class Main {
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args){
         Link l1 = new Link("I am the best", "java.com");
         Link l2 = new Link();
 
