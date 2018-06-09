@@ -8,7 +8,7 @@ public interface ISStorage {
 
     void clear();
 
-    void safe(Resume r);
+    void save(Resume r);
 
     void update(Resume r);
 

@@ -22,11 +22,10 @@ public class ArrayStorage implements ISStorage {
     }
 
     @Override
-    public void safe(Resume r) {
+    public void save(Resume r) {
         LOGGER.info("Save resume with uuid" + r.getUuid());
         int idx = getIndex(r.getUuid());
-        if (idx != -1) {
-            //TODO кусок кода , еслт наследуемся от Exeption
+        //TODO кусок кода , еслт наследуемся от Exeption
          /*   try {
                 throw new WebAppExeption("Resume" +r.getUuid() +"already exist", r);
             } catch (WebAppExeption webAppExeption) {
@@ -34,10 +33,10 @@ public class ArrayStorage implements ISStorage {
                 throw new IllegalStateException(webAppExeption);
             }
         }*/
+        if (idx != -1)
             throw new WebAppExeption("Resume" + r.getUuid() + "already exist", r);
-            array[size++] = r;
+        array[size++] = r;
 
-        }
     }
 
     @Override
