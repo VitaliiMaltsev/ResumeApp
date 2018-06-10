@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="94da230d-17b1-40fb-9988-d3d5a0ba956f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/CRUDResumeApp/com/company/storage/ArrayStorageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/model/OrganisationPeriod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/model/Organization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/Organization.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/model/Resume.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/Resume.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/storage/ArrayStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/storage/ArrayStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/storage/ISStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/storage/ISStorage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/com/company/storage/ArrayStorageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/company/storage/ArrayStorageTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,8 +22,62 @@
       <file leaf-file-name="ArrayStorage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/storage/ArrayStorage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="174">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#568#569#0" expanded="true" />
+                <element signature="e#609#610#0" expanded="true" />
+                <element signature="e#695#696#0" expanded="true" />
+                <element signature="e#2670#2671#0" expanded="true" />
+                <element signature="e#2697#2698#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MapStorage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/storage/MapStorage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#492#493#0" expanded="true" />
+                <element signature="e#530#531#0" expanded="true" />
+                <element signature="e#586#587#0" expanded="true" />
+                <element signature="e#624#625#0" expanded="true" />
+                <element signature="e#492#493#0" expanded="true" />
+                <element signature="e#519#520#0" expanded="true" />
+                <element signature="e#775#776#0" expanded="true" />
+                <element signature="e#807#808#0" expanded="true" />
+                <element signature="e#639#640#0" expanded="true" />
+                <element signature="e#666#667#0" expanded="true" />
+                <element signature="e#705#706#0" expanded="true" />
+                <element signature="e#729#730#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayStorageTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/company/storage/ArrayStorageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractStorageTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/com/company/storage/AbstractStorageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1226">
+              <caret line="85" column="27" lean-forward="true" selection-start-line="85" selection-start-column="27" selection-end-line="85" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,27 +85,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Resume.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/model/Resume.java">
+      <file leaf-file-name="MapStorageTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/company/storage/MapStorageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="103" column="44" selection-start-line="103" selection-start-column="44" selection-end-line="103" selection-end-column="44" />
+            <state relative-caret-position="85">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractStorage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/storage/AbstractStorage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1241">
+              <caret line="73" column="8" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#640#641#0" expanded="true" />
-                <element signature="e#672#673#0" expanded="true" />
-                <element signature="e#720#721#0" expanded="true" />
-                <element signature="e#760#761#0" expanded="true" />
-                <element signature="e#808#809#0" expanded="true" />
-                <element signature="e#848#849#0" expanded="true" />
-                <element signature="e#896#897#0" expanded="true" />
-                <element signature="e#936#937#0" expanded="true" />
-                <element signature="e#991#992#0" expanded="true" />
-                <element signature="e#1031#1032#0" expanded="true" />
-                <element signature="e#1086#1087#0" expanded="true" />
-                <element signature="e#1126#1127#0" expanded="true" />
-                <element signature="e#2618#2619#0" expanded="true" />
-                <element signature="e#2642#2643#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Resume.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/model/Resume.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1769#1770#0" expanded="true" />
+                <element signature="e#1807#1808#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,8 +127,9 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -92,9 +156,18 @@
         <option value="$PROJECT_DIR$/src/com/company/model/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/storage/ISStorage.java" />
         <option value="$PROJECT_DIR$/src/com/company/storage/WebAppExeption.java" />
-        <option value="$PROJECT_DIR$/src/com/company/storage/ArrayStorage.java" />
+        <option value="$PROJECT_DIR$/src/com/company/model/Organization.java" />
+        <option value="$PROJECT_DIR$/src/com/company/storage/CollectionStorage.java" />
+        <option value="$PROJECT_DIR$/src/com/company/model/Calculator.java" />
+        <option value="$PROJECT_DIR$/test/com/company/model/CalculatorTest.java" />
+        <option value="$PROJECT_DIR$/test/com/company/model/CalculatorTest2.java" />
         <option value="$PROJECT_DIR$/test/com/company/storage/ArrayStorageTest.java" />
+        <option value="$PROJECT_DIR$/test/com/company/storage/MapStorageTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/storage/AbstractStorage.java" />
         <option value="$PROJECT_DIR$/src/com/company/model/Resume.java" />
+        <option value="$PROJECT_DIR$/src/com/company/storage/ArrayStorage.java" />
+        <option value="$PROJECT_DIR$/src/com/company/storage/MapStorage.java" />
+        <option value="$PROJECT_DIR$/test/com/company/storage/AbstractStorageTest.java" />
       </list>
     </option>
   </component>
@@ -151,6 +224,13 @@
               <item name="CRUDResumeApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="CRUDResumeApp" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CRUDResumeApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CRUDResumeApp" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="storage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -165,7 +245,8 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -175,6 +256,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.company.model" />
       <recent name="com.company.storage" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -196,7 +278,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ArrayStorageTest">
+  <component name="RunManager" selected="JUnit.ArrayStorageTest and 1 more">
+    <configuration name="ArrayStorageTest and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CRUDResumeApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.storage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.company.storage" />
+      <option name="MAIN_CLASS_NAME" value="com.company.storage.AbstractStorageTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns>
+        <pattern testClass="com.company.storage.ArrayStorageTest" />
+        <pattern testClass="com.company.storage.MapStorageTest" />
+      </patterns>
+    </configuration>
     <configuration name="ArrayStorageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CRUDResumeApp" />
       <extension name="coverage">
@@ -220,19 +328,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ArrayStorageTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTest2.abs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CRUDResumeApp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.storage.*" />
+          <option name="PATTERN" value="com.company.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.company.storage" />
-      <option name="MAIN_CLASS_NAME" value="com.company.storage.ArrayStorageTest" />
-      <option name="METHOD_NAME" value="delete" />
+      <option name="PACKAGE_NAME" value="com.company.model" />
+      <option name="MAIN_CLASS_NAME" value="com.company.model.CalculatorTest2" />
+      <option name="METHOD_NAME" value="abs" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -243,19 +351,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ArrayStorageTest.getAllSorted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTest.abs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CRUDResumeApp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.storage.*" />
+          <option name="PATTERN" value="com.company.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.company.storage" />
-      <option name="MAIN_CLASS_NAME" value="com.company.storage.ArrayStorageTest" />
-      <option name="METHOD_NAME" value="getAllSorted" />
+      <option name="PACKAGE_NAME" value="com.company.model" />
+      <option name="MAIN_CLASS_NAME" value="com.company.model.CalculatorTest" />
+      <option name="METHOD_NAME" value="abs" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -266,7 +374,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ArrayStorageTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MapStorageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CRUDResumeApp" />
       <extension name="coverage">
         <pattern>
@@ -277,32 +385,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.company.storage" />
-      <option name="MAIN_CLASS_NAME" value="com.company.storage.ArrayStorageTest" />
-      <option name="METHOD_NAME" value="save" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ArrayStorageTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CRUDResumeApp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.storage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.company.storage" />
-      <option name="MAIN_CLASS_NAME" value="com.company.storage.ArrayStorageTest" />
-      <option name="METHOD_NAME" value="update" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.company.storage.MapStorageTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -314,18 +399,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.ArrayStorageTest" />
-      <item itemvalue="JUnit.ArrayStorageTest.getAllSorted" />
-      <item itemvalue="JUnit.ArrayStorageTest.save" />
-      <item itemvalue="JUnit.ArrayStorageTest.update" />
-      <item itemvalue="JUnit.ArrayStorageTest.delete" />
+      <item itemvalue="JUnit.CalculatorTest.abs" />
+      <item itemvalue="JUnit.CalculatorTest2.abs" />
+      <item itemvalue="JUnit.MapStorageTest" />
+      <item itemvalue="JUnit.ArrayStorageTest and 1 more" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArrayStorageTest and 1 more" />
         <item itemvalue="JUnit.ArrayStorageTest" />
-        <item itemvalue="JUnit.ArrayStorageTest.delete" />
-        <item itemvalue="JUnit.ArrayStorageTest.update" />
-        <item itemvalue="JUnit.ArrayStorageTest.save" />
-        <item itemvalue="JUnit.ArrayStorageTest.getAllSorted" />
+        <item itemvalue="JUnit.MapStorageTest" />
+        <item itemvalue="JUnit.CalculatorTest2.abs" />
+        <item itemvalue="JUnit.CalculatorTest.abs" />
       </list>
     </recent_temporary>
   </component>
@@ -349,7 +434,7 @@
       <workItem from="1528404606072" duration="1568000" />
       <workItem from="1528545884638" duration="3793000" />
       <workItem from="1528554295023" duration="2383000" />
-      <workItem from="1528557194389" duration="8678000" />
+      <workItem from="1528557194389" duration="23475000" />
     </task>
     <task id="LOCAL-00001" summary="Test2">
       <created>1528305491453</created>
@@ -435,43 +520,50 @@
       <option name="project" value="LOCAL" />
       <updated>1528556147842</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="All tests done">
+      <created>1528566036235</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1528566036235</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayStorageTest_save - 2018.06.09 at 19h 52m 07s.xml">
-      <configuration name="ArrayStorageTest.save" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_abs - 2018.06.10 at 17h 17m 12s.xml">
+      <configuration name="CalculatorTest.abs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayStorageTest_update - 2018.06.09 at 19h 52m 20s.xml">
-      <configuration name="ArrayStorageTest.update" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_abs - 2018.06.10 at 17h 17m 33s.xml">
+      <configuration name="CalculatorTest.abs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayStorageTest_update - 2018.06.09 at 19h 52m 49s.xml">
-      <configuration name="ArrayStorageTest.update" configurationId="JUnit" />
+    <history-entry file="CalculatorTest2_abs - 2018.06.10 at 17h 21m 45s.xml">
+      <configuration name="CalculatorTest2.abs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayStorageTest_update - 2018.06.09 at 19h 53m 55s.xml">
-      <configuration name="ArrayStorageTest.update" configurationId="JUnit" />
+    <history-entry file="CalculatorTest2_abs - 2018.06.10 at 17h 22m 31s.xml">
+      <configuration name="CalculatorTest2.abs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayStorageTest_update - 2018.06.09 at 19h 55m 05s.xml">
-      <configuration name="ArrayStorageTest.update" configurationId="JUnit" />
+    <history-entry file="CalculatorTest2_abs - 2018.06.10 at 17h 22m 45s.xml">
+      <configuration name="CalculatorTest2.abs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayStorageTest_update - 2018.06.09 at 19h 55m 16s.xml">
-      <configuration name="ArrayStorageTest.update" configurationId="JUnit" />
+    <history-entry file="CalculatorTest2_abs - 2018.06.10 at 17h 23m 00s.xml">
+      <configuration name="CalculatorTest2.abs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayStorageTest - 2018.06.09 at 19h 55m 37s.xml">
+    <history-entry file="ArrayStorageTest - 2018.06.10 at 17h 40m 12s.xml">
       <configuration name="ArrayStorageTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayStorageTest_delete - 2018.06.09 at 20h 24m 03s.xml">
-      <configuration name="ArrayStorageTest.delete" configurationId="JUnit" />
+    <history-entry file="MapStorageTest - 2018.06.10 at 17h 41m 59s.xml">
+      <configuration name="MapStorageTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayStorageTest_delete - 2018.06.09 at 20h 26m 45s.xml">
-      <configuration name="ArrayStorageTest.delete" configurationId="JUnit" />
+    <history-entry file="MapStorageTest - 2018.06.10 at 19h 12m 07s.xml">
+      <configuration name="MapStorageTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayStorageTest - 2018.06.09 at 20h 32m 15s.xml">
+    <history-entry file="ArrayStorageTest - 2018.06.10 at 19h 12m 49s.xml">
       <configuration name="ArrayStorageTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45672000" />
+    <option name="totallyTimeSpent" value="60469000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -484,6 +576,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.24957556" />
@@ -492,12 +585,13 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5015129" side_tool="true" weight="0.34295416" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43972835" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.044142615" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49848714" weight="0.2852292" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3293718" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14977308" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18835099" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3293718" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37011886" />
@@ -508,7 +602,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
@@ -575,31 +668,32 @@
     <MESSAGE value="sleep time..." />
     <MESSAGE value="JUnit tests + arrayStorage" />
     <MESSAGE value="ArrayStorage class done" />
-    <option name="LAST_COMMIT_MESSAGE" value="ArrayStorage class done" />
+    <MESSAGE value="All tests done" />
+    <option name="LAST_COMMIT_MESSAGE" value="All tests done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/test/com/company/storage/ArrayStorageTest.java</url>
-          <line>70</line>
+          <line>21</line>
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/storage/ArrayStorage.java</url>
-          <line>37</line>
+          <url>file://$PROJECT_DIR$/test/com/company/model/CalculatorTest2.java</url>
+          <line>12</line>
           <properties />
-          <option name="timeStamp" value="15" />
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/test/com/company/storage/ArrayStorageTest.java</url>
-          <line>71</line>
+          <url>file://$PROJECT_DIR$/test/com/company/storage/AbstractStorageTest.java</url>
+          <line>19</line>
           <properties />
-          <option name="timeStamp" value="16" />
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="17" />
+      <option name="time" value="21" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -670,51 +764,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/model/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/text/SimpleDateFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10404">
-          <caret line="612" column="13" selection-start-line="612" selection-start-column="13" selection-end-line="612" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/model/Resume.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/model/Link.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/model/TimeTread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="71" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CRUDResumeApp.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/text/SimpleDateFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="612" column="13" selection-start-line="612" selection-start-column="13" selection-end-line="612" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -889,13 +938,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/model/Organization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/model/Section.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -910,13 +952,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/model/OrganisationPeriod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1123,10 +1158,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/company/storage/ArrayStorageTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/OrganisationPeriod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="86" column="46" selection-start-line="86" selection-start-column="46" selection-end-line="86" selection-end-column="46" />
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/Organization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/company/model/CalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/company/model/CalculatorTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/Resume.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1769#1770#0" expanded="true" />
+            <element signature="e#1807#1808#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/storage/AbstractStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="73" column="8" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1135,34 +1220,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/storage/ArrayStorage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="174">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#2670#2671#0" expanded="true" />
+            <element signature="e#2697#2698#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/model/Resume.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/storage/MapStorage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="103" column="44" selection-start-line="103" selection-start-column="44" selection-end-line="103" selection-end-column="44" />
+        <state relative-caret-position="251">
+          <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#848#849#0" expanded="true" />
-            <element signature="e#896#897#0" expanded="true" />
-            <element signature="e#936#937#0" expanded="true" />
-            <element signature="e#991#992#0" expanded="true" />
-            <element signature="e#1031#1032#0" expanded="true" />
-            <element signature="e#1086#1087#0" expanded="true" />
-            <element signature="e#1126#1127#0" expanded="true" />
-            <element signature="e#2618#2619#0" expanded="true" />
-            <element signature="e#2642#2643#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#775#776#0" expanded="true" />
+            <element signature="e#807#808#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/company/storage/MapStorageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/company/storage/ArrayStorageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/company/storage/AbstractStorageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1226">
+          <caret line="85" column="27" lean-forward="true" selection-start-line="85" selection-start-column="27" selection-end-line="85" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
