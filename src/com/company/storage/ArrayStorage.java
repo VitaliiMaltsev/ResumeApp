@@ -10,10 +10,16 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 
-public class ArrayStorage extends AbstractStorage {
+public class ArrayStorage extends AbstractStorage<Integer> {
     private static final int LIMIT = 100;
     private Resume[] array = new Resume[LIMIT];
     private int size = 0;
+//    private int idx;
+
+    @Override
+    protected boolean exist(Integer idx) {
+        return idx!=-1;
+    }
 
     @Override
     protected void doClear() {
@@ -22,31 +28,22 @@ public class ArrayStorage extends AbstractStorage {
     }
 
     @Override
-    protected boolean exist(String uuid) {
-        return getIndex(uuid)!=-1;
+    protected void doSave(Integer ctx, Resume r) {
+          array[size++] = r;
     }
 
     @Override
-    protected void doSave(Resume r) {
-        array[size++] = r;
-    }
-
-    @Override
-    protected void doUpdate(Resume r) {
-        int idx = getIndex(r.getUuid());
-        if (idx == -1) throw new WebAppExeption("Resume" + r.getUuid() + "not exist", r);
+    protected void doUpdate(Integer idx, Resume r) {
         array[idx] = r;
     }
 
     @Override
-    protected Resume doLoad(String uuid) {
-        int idx = getIndex(uuid);
+    protected Resume doLoad(Integer idx) {
         return array[idx];
     }
 
     @Override
-    protected void doDelete(String uuid) {
-        int idx = getIndex(uuid);
+    protected void doDelete(Integer idx) {
         int numMoved = size - idx - 1;
         if (numMoved > 0)
             System.arraycopy(array, idx + 1, array, idx, numMoved);
@@ -63,8 +60,9 @@ public class ArrayStorage extends AbstractStorage {
         return size;
     }
 
-    private int getIndex(String uuid) {
-        for (int i = 0; i < LIMIT; i++) {
+    @Override
+    protected Integer getContext(String uuid) {
+           for (int i = 0; i < LIMIT; i++) {
             if (array[i] != null) {
                 if (array[i].getUuid().equals(uuid)) {
                     return i;

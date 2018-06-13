@@ -10,7 +10,7 @@ public class WebAppExeption extends RuntimeException {
         super(message);
     }
 
-    public WebAppExeption(String message, Throwable cause) {
+    public WebAppExeption(String message, Resume r, Throwable cause) {
         super(message, cause);
     }
 

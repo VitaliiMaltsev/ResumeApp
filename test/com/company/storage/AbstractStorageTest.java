@@ -12,6 +12,7 @@ import org.junit.jupiter.api.Test;
 import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
@@ -31,14 +32,14 @@ abstract public class AbstractStorageTest {
     @BeforeEach
     public void before() {
         R1 = new Resume("Полное имя1", "Локация1");
-        R1.addContact(new Contact(ContactType.SKYPE, "skype1"));
-        R1.addContact(new Contact(ContactType.PHONE, "1111111"));
+        R1.addContact(ContactType.SKYPE, "skype1");
+        R1.addContact(ContactType.PHONE, "1111111");
         R2 = new Resume("Полное имя2", null);
-        R2.addContact(new Contact(ContactType.SKYPE, "skype2"));
-        R2.addContact(new Contact(ContactType.PHONE, "2222222"));
+        R2.addContact(ContactType.SKYPE, "skype2");
+        R2.addContact(ContactType.PHONE, "2222222");
         R3 = new Resume("Полное имя3", null);
-        R3.addContact(new Contact(ContactType.SKYPE, "skype3"));
-        R3.addContact(new Contact(ContactType.PHONE, "3333333"));
+        R3.addContact(ContactType.SKYPE, "skype3");
+        R3.addContact(ContactType.PHONE, "3333333");
         storage.clear();
         storage.save(R3);
         storage.save(R1);
@@ -83,7 +84,7 @@ abstract public class AbstractStorageTest {
     @Test
     void getAllSorted() throws Exception {
         List<Resume> list = Arrays.asList(R1, R2, R3);
-        Collections.sort(list);
+        Collections.sort(list, Comparator.comparing(Resume::getFullName));
         assertEquals(list, storage.getAllSorted());
     }
 

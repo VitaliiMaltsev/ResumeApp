@@ -1,27 +1,43 @@
 package com.company.model;
 
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Objects;
-import java.util.UUID;
+import java.io.Serializable;
+import java.util.*;
 
-public class Resume implements Comparable<Resume>{
+public class Resume implements Serializable {
     private String uuid;
     private String fullName;
     private String location;
     private String homePage;
-    private List<Contact> contacts = new LinkedList<>();
-    private List<Section> sections = new LinkedList<>();
+    private Map<ContactType, String> contacts = new EnumMap<>(ContactType.class);
+    private Map<SectionType, Section> sections = new EnumMap<>(SectionType.class);
+
+    public final static Resume EMPTY;
+
+    public Map<SectionType, Section> getSections() {
+        return sections;
+    }
+
+    static {
+
+        EMPTY = new Resume();
+    }
 
     public Resume() {
     }
 
-    public void addSection(Section section) {
-        sections.add(section);
+
+    public void addSection(SectionType type, Section section) {
+        sections.put(type, section);
     }
-    public void addContact(Contact contact) {
-        contacts.add(contact);
+
+    public String getContact(ContactType type) {
+        return contacts.get(type);
     }
+
+    public void addContact(ContactType type, String value) {
+        contacts.put(type, value);
+    }
+
     public String getUuid() {
         return uuid;
     }
@@ -38,13 +54,13 @@ public class Resume implements Comparable<Resume>{
         this.homePage = homePage;
     }
 
-    public void setContacts(List<Contact> contacts) {
+    public void setContacts(Map<ContactType, String> contacts) {
         this.contacts = contacts;
     }
 
-    public void setSections(List<Section> sections) {
-        this.sections = sections;
-    }
+   // public void setSections(List<Section> sections) {
+//        this.sections = sections;
+//    }
 
     public String getFullName() {
         return fullName;
@@ -58,12 +74,12 @@ public class Resume implements Comparable<Resume>{
         return homePage;
     }
 
-    public List<Contact> getContacts() {
+    public Map<ContactType, String> getContacts() {
         return contacts;
     }
 
-    public List<Section> getSections() {
-        return sections;
+    public Section getSections(SectionType type) {
+        return sections.get(type);
     }
 
     public Resume(String fullName, String location) {
@@ -93,8 +109,8 @@ public class Resume implements Comparable<Resume>{
         return uuid.equals(other.uuid);
     }
 
-    @Override
-    public int compareTo(Resume o) {
-        return fullName.compareTo(o.fullName);
-    }
+//    @Override
+//   public int compareTo(Resume o) {
+//        return fullName.compareTo(o.fullName);
+//    }
 }
