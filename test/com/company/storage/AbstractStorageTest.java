@@ -1,9 +1,6 @@
 package com.company.storage;
 
-import com.company.model.Contact;
-import com.company.model.ContactType;
-import com.company.model.Resume;
-import com.company.model.SectionType;
+import com.company.model.*;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.jupiter.api.Assertions;
@@ -11,6 +8,8 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.lang.reflect.Array;
+import java.time.LocalDate;
+import java.time.Month;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
@@ -32,7 +31,6 @@ abstract public class AbstractStorageTest {
 
     @BeforeEach
     public void before() {
-        storage.clear();
         R1 = new Resume("Полное имя1", "Локация1");
         R1.addContact(ContactType.SKYPE, "skype1");
         R1.addContact(ContactType.PHONE, "1111111");
@@ -45,8 +43,17 @@ abstract public class AbstractStorageTest {
         R1.addObjective("Objective1");
         R1.addMultitextSection(SectionType.ARCHIEVEMENT, "Archievment1", "Archievment2");
         R1.addMultitextSection(SectionType.QUALIFICATIONS, "Java", "SQL");
-        R1.addMultitextSection(SectionType.EDUCATION,"KPI", "DonNTU");
-        R1.addMultitextSection(SectionType.EXPIRIENCE, "Токарный завод", "Бинбанк");
+//        R1.addMultitextSection(SectionType.EDUCATION,"KPI", "DonNTU");
+//        R1.addMultitextSection(SectionType.EXPIRIENCE, "Токарный завод", "Бинбанк");
+//        R1.addOrganizationSection(SectionType.EXPIRIENCE, new Organization("Organization1", null,
+//                new Organization.Period(LocalDate.of(2005,Month.DECEMBER,1),Organization.Period.NOW,"position1","content1"),
+//                new Organization.Period(2001, Month.JANUARY, 2005,Month.APRIL, "position2","content2"),
+//                new Organization("Organization 2", "http://organization2.ua"));
+//        R1.addOrganizationSection(SectionType.EDUCATION, new Organization("INstitute1", null,
+//                new Organization.Period(1993,Month.JUNE,1996,Month.APRIL,"student",null),
+//                new Organization.Period(1996, Month.OCTOBER, 2000,Month.AUGUST, "aspirant","Computer Science"),
+//                new Organization("Institute 2", "http://institute2.ua"));
+        storage.clear();
         storage.save(R3);
         storage.save(R1);
         storage.save(R2);

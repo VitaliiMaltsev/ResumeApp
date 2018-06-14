@@ -7,6 +7,9 @@ public class TextSection extends Section {
     //private String title;
     private String value;
 
+    public TextSection() {
+    }
+
     public TextSection(String value) {
         this.value = value;
     }

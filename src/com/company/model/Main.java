@@ -6,6 +6,9 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.time.LocalDate;
+import java.time.LocalTime;
+import java.time.ZoneId;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -16,8 +19,9 @@ public class Main {
     public static void main(String[] args){
         Link l1 = new Link("I am the best", "java.com");
         Link l2 = new Link();
-
-      //  new Thread(new TimeTread()).start();
+        System.out.println(LocalDate.now());
+        System.out.println(LocalTime.now(ZoneId.of("Europe/Berlin")));
+        //String msg->System.out.println(msg);      //  new Thread(new TimeTread()).start();
         Contact contact = new Contact(ContactType.SKYPE, "vitaly");
 
             Path path = Paths.get("E:\\винда 25,02\\testing\\result.doc");

@@ -1,8 +1,13 @@
 package com.company.model;
 
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlRootElement;
 import java.io.Serializable;
 import java.util.*;
 
+@XmlRootElement
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Resume implements Serializable {
     static final long serialVersionUID =1L;
     private String uuid;
@@ -67,6 +72,10 @@ public class Resume implements Serializable {
     }
     public void addMultitextSection(SectionType type, String...values){
         addSection(type, new MultiTextSection(values));
+    }
+
+    public void addOrganizationSection(SectionType type, Organization...organizations){
+        addSection(type, new OrganisationSection(organizations));
     }
 
     public void setUuid(String uuid) {

@@ -39,5 +39,7 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" exported="" name="com.google.code.gson:gson:2.8.5" level="project" />
+    <orderEntry type="library" exported="" name="javax.xml.bind:jaxb-api:2.3.0" level="project" />
   </component>
 </module>
