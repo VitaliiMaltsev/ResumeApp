@@ -6,11 +6,9 @@ import com.company.model.Section;
 import com.company.model.SectionType;
 
 import java.io.*;
-import java.util.List;
-import java.util.Map;
-import java.util.Objects;
+import java.util.*;
 
-public class FileStorage extends AbstractStorage<File> {
+public abstract class FileStorage extends AbstractStorage<File> {
     private File dir;
 
     public FileStorage(String path) {
@@ -31,7 +29,7 @@ public class FileStorage extends AbstractStorage<File> {
 
     @Override
     protected File getContext(String fileName) {
-        return new File(fileName);
+        return new File(dir, fileName);
     }
 
     @Override
@@ -51,38 +49,9 @@ public class FileStorage extends AbstractStorage<File> {
 
     }
 
-    protected void write(File file, Resume r) {
-        try (FileOutputStream fos = new FileOutputStream(file);
-             DataOutputStream dos = new DataOutputStream(fos)) {
-            dos.writeUTF(r.getFullName());
-            dos.writeUTF(r.getLocation());
-            dos.writeUTF(r.getHomePage());
-            for (Map.Entry<ContactType, String> entry : r.getContacts().entrySet()) {
-                dos.writeUTF(entry.getKey() + " " + entry.getValue());
-            }
-            for (Map.Entry<SectionType, Section> entry : r.getSections().entrySet()) {
-                dos.writeUTF(entry.getKey() + ":" + entry.getValue());
-            }
-        } catch (IOException e) {
-            throw new WebAppExeption("Couldn't write file" + file.getAbsolutePath(), r, e);
-        }
-    }
+    abstract protected void write(File file, Resume r);
 
-    protected Resume read(File file){
-        Resume r = new Resume();
-        try(InputStream is = new FileInputStream(file); DataInputStream dis = new DataInputStream(is)){
-            r.setFullName(dis.readUTF());
-            r.setLocation(dis.readUTF());
-            r.setHomePage(dis.readUTF());
-            int contactSize = dis.readInt();
-            for (int i = 0; i < contactSize; i++) {
-                r.addContact(ContactType.VALUES[dis.readInt()],dis.readUTF());
-            }
-        } catch (IOException e) {
-            throw new WebAppExeption("Couldn't read file" + file.getAbsolutePath(), r, e);
-        }
-        return null;
-    }
+    abstract protected Resume read(File file);
 
     @Override
     protected void doUpdate(File file, Resume r) {
@@ -102,9 +71,12 @@ public class FileStorage extends AbstractStorage<File> {
 
     @Override
     protected List<Resume> doGetAll() {
-        return null;
-    }
-
+        File[]files = dir.listFiles();
+        if(files==null)return Collections.emptyList();
+        List<Resume>list = new ArrayList<>(files.length);
+        for (File file : files ) list.add(read(file));
+            return list;
+        }
     @Override
     public int size() {
         return Objects.requireNonNull(dir.list()).length;

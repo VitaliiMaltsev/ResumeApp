@@ -4,6 +4,7 @@ import java.io.Serializable;
 import java.util.*;
 
 public class Resume implements Serializable {
+    static final long serialVersionUID =1L;
     private String uuid;
     private String fullName;
     private String location;
@@ -25,6 +26,9 @@ public class Resume implements Serializable {
     public Resume() {
     }
 
+    public Resume(String uuid) {
+        this.uuid = uuid;
+    }
 
     public void addSection(SectionType type, Section section) {
         sections.put(type, section);
@@ -58,7 +62,17 @@ public class Resume implements Serializable {
         this.contacts = contacts;
     }
 
-   // public void setSections(List<Section> sections) {
+    public void addObjective(String value){
+        addSection(SectionType.OBJECTIVE, new TextSection(value));
+    }
+    public void addMultitextSection(SectionType type, String...values){
+        addSection(type, new MultiTextSection(values));
+    }
+
+    public void setUuid(String uuid) {
+        this.uuid = uuid;
+    }
+    // public void setSections(List<Section> sections) {
 //        this.sections = sections;
 //    }
 
@@ -109,7 +123,18 @@ public class Resume implements Serializable {
         return uuid.equals(other.uuid);
     }
 
-//    @Override
+    @Override
+    public String toString() {
+        return "Resume{" +
+                "uuid='" + uuid + '\'' +
+                ", fullName='" + fullName + '\'' +
+                ", location='" + location + '\'' +
+                ", homePage='" + homePage + '\'' +
+                ", contacts=" + contacts +
+                ", sections=" + sections +
+                '}';
+    }
+    //    @Override
 //   public int compareTo(Resume o) {
 //        return fullName.compareTo(o.fullName);
 //    }

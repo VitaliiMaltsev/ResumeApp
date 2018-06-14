@@ -24,7 +24,7 @@ public abstract class AbstractStorage<C> implements ISStorage {
 
     @Override
     public void save(Resume r) {
-        logger.info("Save resume with uuid" + r.getUuid());
+        logger.info("Save resume with uuid " + r.getUuid());
         C ctx = getContext(r);
         if (exist(ctx)) {
             throw new WebAppExeption("Resume" + r.getUuid() + "already exist", r);
@@ -38,7 +38,7 @@ public abstract class AbstractStorage<C> implements ISStorage {
 
     @Override
     public void update(Resume r) {
-        logger.info("Update resume with uuid" + r.getUuid());
+        logger.info("Update resume with uuid " + r.getUuid());
         C ctx = getContext(r);
         if (!exist(ctx)) {
             throw new WebAppExeption("Resume" + r.getUuid() + "not exist", r);
@@ -50,7 +50,7 @@ public abstract class AbstractStorage<C> implements ISStorage {
 
     @Override
     public Resume load(String uuid) {
-        logger.info("Load resume with uuid" + uuid);
+        logger.info("Load resume with uuid " + uuid);
         C ctx = getContext(uuid);
         if (!exist(ctx)) {
             throw new WebAppExeption("Resume" + uuid + "not exist");
@@ -62,7 +62,7 @@ public abstract class AbstractStorage<C> implements ISStorage {
 
     @Override
     public void delete(String uuid){
-        logger.info("Delete resume with uuid" + uuid);
+        logger.info("Delete resume with uuid " + uuid);
         C ctx = getContext(uuid);
         if (!exist(ctx)) {
             throw new WebAppExeption("Resume" + uuid + "not exist");

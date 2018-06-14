@@ -1,6 +1,8 @@
 package com.company.model;
 
-public enum SectionType {
+import java.io.Serializable;
+
+public enum SectionType implements Serializable {
     OBJECTIVE("Позиция"),
     ARCHIEVEMENT("Достижения"),
     EXPIRIENCE("Опыт работы"),

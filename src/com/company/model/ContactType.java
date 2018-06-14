@@ -1,6 +1,8 @@
 package com.company.model;
 
-public enum ContactType {
+import java.io.Serializable;
+
+public enum ContactType implements Serializable {
     PHONE("Тел. "),
     MOBILE("Мобильный тел. "),
     HOME_PHONE("Домашний тел. "),
