@@ -2,7 +2,10 @@ package com.company.storage;
 
 import com.company.model.Resume;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class MapStorage extends AbstractStorage<String> {
     private Map<String,Resume> map = new HashMap<>();
@@ -50,5 +53,10 @@ public class MapStorage extends AbstractStorage<String> {
     @Override
     public int size() {
         return map.size();
+    }
+
+    @Override
+    public boolean IsSectionSupported() {
+        return true;
     }
 }

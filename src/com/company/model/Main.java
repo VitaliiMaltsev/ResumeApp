@@ -20,28 +20,30 @@ public class Main {
         Link l1 = new Link("I am the best", "java.com");
         Link l2 = new Link();
         System.out.println(LocalDate.now());
-        System.out.println(LocalTime.now(ZoneId.of("Europe/Berlin")));
-        //String msg->System.out.println(msg);      //  new Thread(new TimeTread()).start();
-        Contact contact = new Contact(ContactType.SKYPE, "vitaly");
-
-            Path path = Paths.get("E:\\винда 25,02\\testing\\result.doc");
+        System.out.println(LocalTime.now(ZoneId.of("America/Sao_Paulo")));
+        for (int i = 0; i <100 ; i++) {
+            new Thread(() -> {
+                System.out.println(Thread.currentThread().getName() + " " + Math.round(Math.random()*100));
+            }).start();
+        }
+//            Path path = Paths.get("E:\\винда 25,02\\testing\\result.doc");
 //        try {
 //            Files.lines(path).forEach(System.out::println);
 //        } catch (IOException e) {
 //            e.printStackTrace();
 //        }
 //        Stream<String>ljh ;
-            Path path2 = Paths.get("E:\\винда 25,02\\testing\\testing.doc");
+//            Path path2 = Paths.get("E:\\винда 25,02\\testing\\testing.doc");
 //        try {
 //            Files.createFile(path2);
 //        } catch (IOException e) {
 //            e.printStackTrace();
 //        }
-        try {
-            Files.copy(path,path2);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            Files.copy(path,path2);
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
 
     }
 }

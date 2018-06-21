@@ -19,4 +19,6 @@ public interface ISStorage {
     Collection<Resume> getAllSorted();
 
     int size();
+
+    boolean IsSectionSupported();
 }

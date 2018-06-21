@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import javax.xml.stream.Location;
 import java.lang.reflect.Array;
 import java.time.LocalDate;
 import java.time.Month;
@@ -19,6 +20,7 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 abstract public class AbstractStorageTest {
+    public static final String FILE_STORAGE = ".\\file_storage";
     protected ISStorage storage;
     private Resume R1, R2, R3;
 
@@ -34,10 +36,10 @@ abstract public class AbstractStorageTest {
         R1 = new Resume("Полное имя1", "Локация1");
         R1.addContact(ContactType.SKYPE, "skype1");
         R1.addContact(ContactType.PHONE, "1111111");
-        R2 = new Resume("Полное имя2", null);
-        R2.addContact(ContactType.SKYPE, "skype2");
+        R2 = new Resume("Полное имя2", "Location1");
+        R2.addContact(ContactType.MAIL, "mail@mail.ru");
         R2.addContact(ContactType.PHONE, "2222222");
-        R3 = new Resume("Полное имя3", null);
+        R3 = new Resume("Полное имя3", "Locato");
         R3.addContact(ContactType.SKYPE, "skype3");
         R3.addContact(ContactType.PHONE, "3333333");
         R1.addObjective("Objective1");
@@ -45,14 +47,16 @@ abstract public class AbstractStorageTest {
         R1.addMultitextSection(SectionType.QUALIFICATIONS, "Java", "SQL");
 //        R1.addMultitextSection(SectionType.EDUCATION,"KPI", "DonNTU");
 //        R1.addMultitextSection(SectionType.EXPIRIENCE, "Токарный завод", "Бинбанк");
-//        R1.addOrganizationSection(SectionType.EXPIRIENCE, new Organization("Organization1", null,
-//                new Organization.Period(LocalDate.of(2005,Month.DECEMBER,1),Organization.Period.NOW,"position1","content1"),
-//                new Organization.Period(2001, Month.JANUARY, 2005,Month.APRIL, "position2","content2"),
-//                new Organization("Organization 2", "http://organization2.ua"));
-//        R1.addOrganizationSection(SectionType.EDUCATION, new Organization("INstitute1", null,
-//                new Organization.Period(1993,Month.JUNE,1996,Month.APRIL,"student",null),
-//                new Organization.Period(1996, Month.OCTOBER, 2000,Month.AUGUST, "aspirant","Computer Science"),
-//                new Organization("Institute 2", "http://institute2.ua"));
+        R1.addOrganizationSection(SectionType.EXPIRIENCE,
+                new Organization("IBM COMPANY", "ibm.com",
+                new Organization.Period(LocalDate.of(2005,Month.DECEMBER,1),Organization.Period.NOW,"position1","content1"),
+                new Organization.Period(2001, Month.JANUARY, 2005,Month.APRIL, "position2","content2")),
+                new Organization("SAMSUNG", "http://organization2.ua"));
+        R1.addOrganizationSection(SectionType.EDUCATION,
+                new Organization("INstitute1", null,
+                new Organization.Period(1993,Month.JUNE,1996,Month.APRIL,"student",null),
+                new Organization.Period(1996, Month.OCTOBER, 2000,Month.AUGUST, "aspirant","Computer Science")),
+                new Organization("Institute 2", "http://institute2.ua"));
         storage.clear();
         storage.save(R3);
         storage.save(R1);

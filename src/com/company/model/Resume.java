@@ -12,8 +12,9 @@ public class Resume implements Serializable {
     static final long serialVersionUID =1L;
     private String uuid;
     private String fullName;
-    private String location;
-    private String homePage;
+    private String location="";
+
+    private String homePage="";
     private Map<ContactType, String> contacts = new EnumMap<>(ContactType.class);
     private Map<SectionType, Section> sections = new EnumMap<>(SectionType.class);
 
@@ -110,6 +111,9 @@ public class Resume implements Serializable {
     }
 
     public Resume(String uuid, String fullName, String location) {
+        Objects.requireNonNull(uuid,"uuid is null");
+        Objects.requireNonNull(fullName,"FullName is null");
+        Objects.requireNonNull(location,"location is null");
         this.uuid = uuid;
         this.fullName = fullName;
         this.location = location;

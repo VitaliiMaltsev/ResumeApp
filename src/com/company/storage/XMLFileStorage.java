@@ -28,4 +28,9 @@ public class XMLFileStorage extends FileStorage {
             return xmlParser.unmarshall(r);
         }
     }
+
+    @Override
+    public boolean IsSectionSupported() {
+        return true;
+    }
 }

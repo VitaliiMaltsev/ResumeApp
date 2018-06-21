@@ -117,6 +117,11 @@ public class DataStreamFileStorage extends FileStorage {
         return str.equals(NULL) ? null : str;
     }
 
+    @Override
+    public boolean IsSectionSupported() {
+        return true;
+    }
+
     private interface ElementWriter<T> {
         void write(T t) throws IOException;
     }

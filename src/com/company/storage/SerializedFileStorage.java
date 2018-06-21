@@ -31,4 +31,8 @@ public class SerializedFileStorage extends FileStorage {
     }
 
 
+    @Override
+    public boolean IsSectionSupported() {
+        return true;
+    }
 }

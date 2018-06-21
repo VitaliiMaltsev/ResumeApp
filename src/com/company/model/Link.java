@@ -1,14 +1,27 @@
 package com.company.model;
 
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Link {
+@XmlAccessorType(XmlAccessType.FIELD)
+public class Link implements Serializable {
+    static final long serialVersionUID =1L;
     private final String name;
     private final String url;
 
     public Link(String name, String url) {
         this.name = name;
         this.url = url;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getUrl() {
+        return url;
     }
 
     public Link(Link link) {

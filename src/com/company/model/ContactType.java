@@ -1,13 +1,22 @@
 package com.company.model;
 
 import java.io.Serializable;
-
-public enum ContactType implements Serializable {
-    PHONE("Тел. "),
-    MOBILE("Мобильный тел. "),
-    HOME_PHONE("Домашний тел. "),
-    MAIL("e-mail: "),
-    SKYPE("Skype: ");
+public enum ContactType implements Serializable{
+    PHONE("Тел."),
+    MOBILE("Мобильный"),
+    HOME_PHONE("Домашний тел."),
+    SKYPE("Skype"){
+        @Override
+        public String toHtml(String value) {
+            return "<a href='skype:" + value + "'>" + value + "</a>";
+        }
+    },
+    MAIL("Почта") {
+        @Override
+        public String toHtml(String value) {
+            return "<a href='mailto:" + value + "'>" + value + "</a>";
+        }
+    };
 
     private String title;
 
@@ -19,5 +28,9 @@ public enum ContactType implements Serializable {
         return title;
     }
 
-    public static ContactType[]VALUES = ContactType.values();
+    public static ContactType[] VALUES = ContactType.values();
+
+    public String toHtml(String value) {
+        return title + ": " + value;
+    }
 }
