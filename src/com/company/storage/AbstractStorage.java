@@ -4,11 +4,10 @@ import com.company.model.Resume;
 
 import java.util.Collection;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 import java.util.logging.Logger;
 
-public abstract class AbstractStorage<C> implements ISStorage {
+public abstract class AbstractStorage<C> implements IStorage {
     protected final Logger logger = Logger.getLogger(getClass().getName());
 
     @Override

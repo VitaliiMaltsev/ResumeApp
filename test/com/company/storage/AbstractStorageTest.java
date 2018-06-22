@@ -7,8 +7,6 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import javax.xml.stream.Location;
-import java.lang.reflect.Array;
 import java.time.LocalDate;
 import java.time.Month;
 import java.util.Arrays;
@@ -21,7 +19,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 abstract public class AbstractStorageTest {
     public static final String FILE_STORAGE = ".\\file_storage";
-    protected ISStorage storage;
+    protected IStorage storage;
     private Resume R1, R2, R3;
 
 
@@ -43,8 +41,8 @@ abstract public class AbstractStorageTest {
         R3.addContact(ContactType.SKYPE, "skype3");
         R3.addContact(ContactType.PHONE, "3333333");
         R1.addObjective("Objective1");
-        R1.addMultitextSection(SectionType.ARCHIEVEMENT, "Archievment1", "Archievment2");
-        R1.addMultitextSection(SectionType.QUALIFICATIONS, "Java", "SQL");
+        R1.addMultiTextSection(SectionType.ARCHIEVEMENT, "Archievment1", "Archievment2");
+        R1.addMultiTextSection(SectionType.QUALIFICATIONS, "Java", "SQL");
 //        R1.addMultitextSection(SectionType.EDUCATION,"KPI", "DonNTU");
 //        R1.addMultitextSection(SectionType.EXPIRIENCE, "Токарный завод", "Бинбанк");
         R1.addOrganizationSection(SectionType.EXPIRIENCE,

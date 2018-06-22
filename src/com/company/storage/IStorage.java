@@ -4,7 +4,7 @@ import com.company.model.Resume;
 
 import java.util.Collection;
 
-public interface ISStorage {
+public interface IStorage {
 
     void clear();
 

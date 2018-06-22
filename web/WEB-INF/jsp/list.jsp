@@ -3,9 +3,8 @@
 <%@ page import="com.company.model.ContactType" %>
 <%@ page import="com.company.model.Resume" %>
 <%@ page import="java.util.Collection" %>
-<%@ page import="com.company.web.HtmlUtil" %>
+<%@ page import="com.company.web.WebAppConfig" %>
 <%@ page import="com.company.storage.SerializedFileStorage" %>
-<%@ page import="static com.company.web.ResumeServlet.storage" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
@@ -16,6 +15,7 @@
     <title>Список всех резюме</title>
 </head>
 <body>
+<jsp:include page="/WEB-INF/jsp/fragments/header.jsp"/>
 <section>
     <table>
         <tr>
@@ -33,16 +33,19 @@
                         <th>&nbsp;</th>
                     </tr>
                     <%
-
+SerializedFileStorage storage = new SerializedFileStorage("E:\\IDEA Ultimate\\java projects ultimate\\CRUDResumeApp\\file_storage");
                         Collection<Resume> resumes = storage.getAllSorted();
                         request.setAttribute("resumeList", resumes);
+//                        Collection<Resume> resumes = WebAppConfig.get().getStorage().getAllSorted();
+//                        request.setAttribute("resumeList", resumes);
+
                     %>
                     <c:forEach items="${resumeList}" var="resume">
                         <jsp:useBean id="resume" type="com.company.model.Resume"/>
                         <tr>
                             <td><a href="resume?uuid=${resume.uuid}&action=view">${resume.fullName}</a></td>
-                            <td>${resume.location}</td>
-                            <%--<td><%=HtmlUtil.mask(resume.getLocation())%></td>--%>
+                            <%--<td>${resume.location}</td>--%>
+                            <td><%=HtmlUtil.mask(resume.getLocation())%></td>
                             <td><%=HtmlUtil.getContact(resume, ContactType.MAIL)%></td>
                             <td><a href="resume?uuid=${resume.uuid}&action=delete"><img src="img/delete.png"></a></td>
                             <td><a href="resume?uuid=${resume.uuid}&action=edit"><img src="img/pencil.png"></a></td>
@@ -67,5 +70,6 @@
         </tr>
     </table>
         </section>
+<jsp:include page="/WEB-INF/jsp/fragments/footer.jsp"/>
 </body>
 </html>

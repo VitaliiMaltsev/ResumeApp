@@ -10,4 +10,11 @@ public class Section implements Serializable {
 
     public Section() {
     }
+
+    @Override
+    public String toString() {
+        return "Section{" +
+                "type=" + type +
+                '}';
+    }
 }

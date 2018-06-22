@@ -29,11 +29,11 @@
     <title>Резюме ${resume.fullName}</title>
 </head>
 <body>
-<%--<jsp:include page="/WEB-INF/jsp/fragments/header.jsp"/>--%>
+<jsp:include page="/WEB-INF/jsp/fragments/header.jsp"/>
 <section>
     <h2>${resume.fullName}</h2>
     <c:if test="${not empty  resume.homePage}">
-        Домашняя старница: ${resume.homePage}<br>
+        Домашняя страница: ${resume.homePage}<br>
     </c:if>
     <c:if test="${not empty  resume.location}">
         Проживание: ${resume.location}
@@ -107,7 +107,7 @@
     </table>
     <button onclick="window.history.back()">ОК</button>
 </section>
-<%--<jsp:include page="/WEB-INF/jsp/fragments/footer.jsp"/>--%>
+<jsp:include page="/WEB-INF/jsp/fragments/footer.jsp"/>
 </body>
 </html>
 

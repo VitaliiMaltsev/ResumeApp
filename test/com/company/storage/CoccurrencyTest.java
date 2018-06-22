@@ -48,7 +48,7 @@ public class CoccurrencyTest {
 //    }
 
 
-    private void run(ISStorage storage) {
+    private void run(IStorage storage) {
         for (int i = 0; i < 5000; i++) {
             new Thread(new Runnable() {
                 @Override

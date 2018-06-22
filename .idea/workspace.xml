@@ -6,49 +6,35 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94da230d-17b1-40fb-9988-d3d5a0ba956f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/web/HtmlUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/view.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/img/add.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/img/delete.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/img/email.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/img/pdf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/img/pencil.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/img/s.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/img/skype.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
+    <list default="true" id="94da230d-17b1-40fb-9988-d3d5a0ba956f" name="Default" comment="At last/// JSTL included!!!">
+      <change afterPath="$PROJECT_DIR$/src/com/company/storage/ConcurrencyMapStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/util/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/web/WebAppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/fragments/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/fragments/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDResumeApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDResumeApp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CRUDResumeApp/com/company/model/ContactType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CRUDResumeApp/com/company/model/ContactType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CRUDResumeApp/com/company/model/Link.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CRUDResumeApp/com/company/model/Link.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CRUDResumeApp/com/company/model/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CRUDResumeApp/com/company/model/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CRUDResumeApp/com/company/model/OrganisationSection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CRUDResumeApp/com/company/model/OrganisationSection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CRUDResumeApp/com/company/model/Organization$Period.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CRUDResumeApp/com/company/model/Organization$Period.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CRUDResumeApp/com/company/model/Organization.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CRUDResumeApp/com/company/model/Organization.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logging.properties" beforeDir="false" afterPath="$PROJECT_DIR$/logging.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CRUDResumeApp/com/company/model/Resume.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CRUDResumeApp/com/company/model/Resume.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CRUDResumeApp/com/company/storage/ArrayStorage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CRUDResumeApp/com/company/storage/ArrayStorage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CRUDResumeApp/com/company/storage/ISStorage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CRUDResumeApp/com/company/storage/ISStorage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CRUDResumeApp/com/company/storage/MapStorage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CRUDResumeApp/com/company/storage/MapStorage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CRUDResumeApp/com/company/model/SectionType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CRUDResumeApp/com/company/model/SectionType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CRUDResumeApp/com/company/storage/AbstractStorage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CRUDResumeApp/com/company/storage/AbstractStorage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CRUDResumeApp/com/company/storage/ISStorage.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/CRUDResumeApp/com/company/storage/AbstractStorageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/CRUDResumeApp/com/company/storage/AbstractStorageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/CRUDResumeApp/com/company/storage/ArrayStorageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/CRUDResumeApp/com/company/storage/ArrayStorageTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/CRUDResumeApp/com/company/storage/MapStorageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/CRUDResumeApp/com/company/storage/MapStorageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/model/ContactType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/ContactType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/model/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/Link.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/model/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/model/OrganisationSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/OrganisationSection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/model/Organization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/Organization.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/model/Resume.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/Resume.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/storage/ArrayStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/storage/ArrayStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/storage/DataStreamFileStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/storage/DataStreamFileStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/storage/ISStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/storage/ISStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/storage/JSonStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/storage/JSonStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/storage/MapStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/storage/ConcurrencyMapStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/storage/SerializedFileStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/storage/SerializedFileStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/storage/XMLFileStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/storage/XMLFileStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/model/Section.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/Section.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/model/SectionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/SectionType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/storage/AbstractStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/storage/AbstractStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/storage/ISStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/storage/IStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/web/HtmlUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/web/HtmlUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/web/ResumeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/web/ResumeServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/com/company/storage/AbstractStorageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/company/storage/AbstractStorageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/company/storage/MapStorageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/company/storage/MapStorageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/company/storage/AbstractStorageTestj4.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/company/storage/AbstractStorageTestj4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/company/storage/CoccurrencyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/company/storage/CoccurrencyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/view.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,20 +46,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ResumeServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/web/ResumeServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-600">
-              <caret line="13" column="150" lean-forward="true" selection-start-line="13" selection-start-column="150" selection-end-line="13" selection-end-column="150" />
+            <state relative-caret-position="44">
+              <caret line="91" selection-start-line="91" selection-end-line="91" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,77 +58,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/view.jsp">
+      <file leaf-file-name="WebAppConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/web/WebAppConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1287">
-              <caret line="110" column="7" lean-forward="true" selection-start-line="110" selection-start-column="7" selection-end-line="110" selection-end-column="7" />
+            <state relative-caret-position="51">
+              <caret line="3" column="49" lean-forward="true" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://E:/[javawebinar.ru] Практика Java. Разработка Web приложения/webapp5-master/web/WEB-INF/jsp/list.jsp">
+      <file leaf-file-name="edit.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/edit.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="58" column="6" lean-forward="true" selection-start-line="46" selection-end-line="60" selection-end-column="4" />
+            <state relative-caret-position="187">
+              <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/list.jsp">
+      <file leaf-file-name="SectionHtmlType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/web/SectionHtmlType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="40" column="77" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="79" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SerializedFileStorageTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/company/storage/SerializedFileStorageTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractStorageTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/company/storage/AbstractStorageTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="39" column="53" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
+            <state relative-caret-position="225">
+              <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1377#1378#0" expanded="true" />
+                <element signature="e#1442#1443#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JSonStorageTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/company/storage/JSonStorageTest.java">
+      <file leaf-file-name="Section.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/model/Section.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="XMLFileStorageTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/company/storage/XMLFileStorageTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="42" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HtmlUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/web/HtmlUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="106">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -166,8 +109,8 @@
         <option value="JUnit4 Test Class" />
         <option value="JUnit5 Test Class" />
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -177,6 +120,7 @@
       <find>getIndex</find>
       <find>index</find>
       <find>New Name</find>
+      <find>webappcon</find>
     </findStrings>
     <replaceStrings>
       <replace>getIndex</replace>
@@ -190,20 +134,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/storage/AbstractStorage.java" />
-        <option value="$PROJECT_DIR$/test/com/company/storage/AbstractStorageTest4.java" />
-        <option value="$PROJECT_DIR$/test/com/company/storage/DataStreamFileStorageTestj4.java" />
-        <option value="$PROJECT_DIR$/test/com/company/storage/AbstractStorageTestj4.java" />
-        <option value="$PROJECT_DIR$/src/com/company/model/SectionType.java" />
-        <option value="$PROJECT_DIR$/src/com/company/storage/FileStorage.java" />
-        <option value="$PROJECT_DIR$/src/com/company/storage/XMLStorage.java" />
-        <option value="$PROJECT_DIR$/test/com/company/storage/XMLStorageTest.java" />
-        <option value="$PROJECT_DIR$/src/com/company/util/XMLJaxbParser.java" />
-        <option value="$PROJECT_DIR$/src/com/company/util/XmlParser.java" />
         <option value="$PROJECT_DIR$/src/com/company/util/XMLParser.java" />
         <option value="$PROJECT_DIR$/test/com/company/storage/XMLFileStorageTest.java" />
         <option value="$PROJECT_DIR$/src/com/company/model/TextSection.java" />
-        <option value="$PROJECT_DIR$/src/com/company/model/Section.java" />
         <option value="$PROJECT_DIR$/src/com/company/model/MultiTextSection.java" />
         <option value="$PROJECT_DIR$/src/com/company/util/JsonParser.java" />
         <option value="$PROJECT_DIR$/test/com/company/storage/JSonStorageTest.java" />
@@ -225,7 +158,6 @@
         <option value="$PROJECT_DIR$/src/com/company/storage/XMLFileStorage.java" />
         <option value="$PROJECT_DIR$/src/com/company/model/OrganisationSection.java" />
         <option value="$PROJECT_DIR$/src/com/company/model/Organization.java" />
-        <option value="$PROJECT_DIR$/src/com/company/model/Resume.java" />
         <option value="$PROJECT_DIR$/test/com/company/storage/CoccurrencyTesting.java" />
         <option value="$PROJECT_DIR$/src/com/company/storage/ArrayStorage.java" />
         <option value="$PROJECT_DIR$/test/com/company/storage/CoccurrencyTest.java" />
@@ -233,22 +165,34 @@
         <option value="$PROJECT_DIR$/src/com/company/storage/SynchronizedMapStorage.java" />
         <option value="$PROJECT_DIR$/src/com/company/storage/ConcurrencyMapStorage.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/index.html" />
-        <option value="$PROJECT_DIR$/src/com/company/web/HtmlUtil.java" />
         <option value="$PROJECT_DIR$/src/com/company/model/ContactType.java" />
         <option value="$PROJECT_DIR$/web/index.html" />
-        <option value="$PROJECT_DIR$/test/com/company/storage/AbstractStorageTest.java" />
-        <option value="$PROJECT_DIR$/src/com/company/web/ResumeServlet.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/list.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/view.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/logging.properties" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/edit.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/fragments/footer.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/view.jsp" />
+        <option value="$PROJECT_DIR$/src/com/company/web/HtmlUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/company/model/SectionType.java" />
+        <option value="$PROJECT_DIR$/src/com/company/util/Util.java" />
+        <option value="$PROJECT_DIR$/out/artifacts/CRUDResumeApp_Web_exploded/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/webapp.properties" />
+        <option value="$PROJECT_DIR$/src/com/company/web/WebAppConfig.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/list.jsp" />
+        <option value="$PROJECT_DIR$/src/com/company/web/ResumeServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/company/model/Resume.java" />
+        <option value="$PROJECT_DIR$/test/com/company/storage/AbstractStorageTestj4.java" />
+        <option value="$PROJECT_DIR$/test/com/company/storage/AbstractStorageTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/model/Section.java" />
+        <option value="$PROJECT_DIR$/src/com/company/web/SectionHtmlType.java" />
       </list>
     </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -277,17 +221,6 @@
             <path>
               <item name="CRUDResumeApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="CRUDResumeApp" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CRUDResumeApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CRUDResumeApp" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CRUDResumeApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CRUDResumeApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -302,6 +235,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CRUDResumeApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CRUDResumeApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CRUDResumeApp" type="b2602c69:ProjectViewProjectNode" />
@@ -437,11 +378,11 @@
       <recent name="com.company.storage" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEA Ultimate\java projects ultimate\CRUDResumeApp" />
+      <recent name="E:\IDEA Ultimate\java projects ultimate\CRUDResumeApp\web\WEB-INF\jsp" />
       <recent name="E:\IDEA Ultimate\java projects ultimate\CRUDResumeApp\web\WEB-INF\lib" />
       <recent name="E:\IDEA Ultimate\java projects ultimate\CRUDResumeApp\lib" />
-      <recent name="E:\IDEA Ultimate\java projects ultimate\CRUDResumeApp\web\WEB-INF\jsp" />
       <recent name="E:\IDEA Ultimate\java projects ultimate\CRUDResumeApp\web" />
-      <recent name="E:\IDEA Ultimate\java projects ultimate\CRUDResumeApp" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.company" />
@@ -460,6 +401,29 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat_new">
+    <configuration name="AbstractStorageTestj4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CRUDResumeApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.storage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.company.storage" />
+      <option name="MAIN_CLASS_NAME" value="com.company.storage.AbstractStorageTestj4" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="ArrayStorageTest and 5 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CRUDResumeApp" />
       <extension name="coverage">
@@ -559,29 +523,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="XMLFileStorageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CRUDResumeApp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.storage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.company.storage" />
-      <option name="MAIN_CLASS_NAME" value="com.company.storage.XMLFileStorageTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="--add-modules java.xml.bind" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="jaxb-api-2.3.0.jar" type="JarApplication" factoryName="JAR Application">
       <option name="JAR_PATH" value="$PROJECT_DIR$/lib/jaxb-api-2.3.0.jar" />
     </configuration>
@@ -668,7 +609,7 @@
         <option name="BuildArtifacts" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tomcat_new" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.31" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="Tomcat_new" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.31" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:/Program Files/Java/jdk-9.0.4">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -746,18 +687,18 @@
       <item itemvalue="Tomcat Server.Tomcat_new" />
       <item itemvalue="Tomcat Server.Tomcat" />
       <item itemvalue="JUnit.SerializedFileStorageTest" />
-      <item itemvalue="JUnit.XMLFileStorageTest" />
       <item itemvalue="JUnit.ArrayStorageTest and 5 more" />
       <item itemvalue="JUnit.JSonStorageTest" />
       <item itemvalue="JUnit.SerializedFileStorageTest.save" />
+      <item itemvalue="JUnit.AbstractStorageTestj4" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SerializedFileStorageTest.save" />
         <item itemvalue="JUnit.SerializedFileStorageTest" />
+        <item itemvalue="JUnit.AbstractStorageTestj4" />
         <item itemvalue="JUnit.SerializedFileStorageTest.save" />
-        <item itemvalue="JUnit.JSonStorageTest" />
-        <item itemvalue="JUnit.ArrayStorageTest and 5 more" />
+        <item itemvalue="JUnit.SerializedFileStorageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -795,7 +736,9 @@
       <workItem from="1529414900230" duration="781000" />
       <workItem from="1529606112384" duration="338000" />
       <workItem from="1529606494292" duration="1550000" />
-      <workItem from="1529608062390" duration="12562000" />
+      <workItem from="1529608062390" duration="13025000" />
+      <workItem from="1529662984848" duration="13721000" />
+      <workItem from="1529676883264" duration="3438000" />
     </task>
     <task id="LOCAL-00001" summary="Test2">
       <created>1528305491453</created>
@@ -916,31 +859,17 @@
       <option name="project" value="LOCAL" />
       <updated>1529003921251</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="At last/// JSTL included!!!">
+      <created>1529623009955</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1529623009955</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="XMLFileStorageTest - 2018.06.22 at 00h 45m 23s.xml">
-      <configuration name="XMLFileStorageTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="XMLFileStorageTest - 2018.06.22 at 00h 45m 38s.xml">
-      <configuration name="XMLFileStorageTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="XMLFileStorageTest - 2018.06.22 at 00h 46m 35s.xml">
-      <configuration name="XMLFileStorageTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArrayStorageTest_and_5_more - 2018.06.22 at 00h 47m 01s.xml">
-      <configuration name="ArrayStorageTest and 5 more" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JSonStorageTest - 2018.06.22 at 00h 47m 39s.xml">
-      <configuration name="JSonStorageTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SerializedFileStorageTest - 2018.06.22 at 00h 47m 50s.xml">
-      <configuration name="SerializedFileStorageTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SerializedFileStorageTest_save - 2018.06.22 at 00h 48m 02s.xml">
-      <configuration name="SerializedFileStorageTest.save" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SerializedFileStorageTest - 2018.06.22 at 01h 29m 21s.xml">
       <configuration name="SerializedFileStorageTest" configurationId="JUnit" />
     </history-entry>
@@ -950,9 +879,30 @@
     <history-entry file="SerializedFileStorageTest_save - 2018.06.22 at 01h 29m 47s.xml">
       <configuration name="SerializedFileStorageTest.save" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SerializedFileStorageTest - 2018.06.22 at 13h 28m 18s.xml">
+      <configuration name="SerializedFileStorageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SerializedFileStorageTest_save - 2018.06.22 at 13h 28m 44s.xml">
+      <configuration name="SerializedFileStorageTest.save" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SerializedFileStorageTest - 2018.06.22 at 17h 59m 14s.xml">
+      <configuration name="SerializedFileStorageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SerializedFileStorageTest_save - 2018.06.22 at 17h 59m 26s.xml">
+      <configuration name="SerializedFileStorageTest.save" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AbstractStorageTestj4 - 2018.06.22 at 18h 12m 45s.xml">
+      <configuration name="AbstractStorageTestj4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SerializedFileStorageTest - 2018.06.22 at 18h 13m 23s.xml">
+      <configuration name="SerializedFileStorageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SerializedFileStorageTest_save - 2018.06.22 at 18h 13m 38s.xml">
+      <configuration name="SerializedFileStorageTest.save" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210986000" />
+    <option name="totallyTimeSpent" value="228608000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -965,25 +915,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.24957556" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.22580644" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.44482175" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" weight="0.13582343" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5015129" side_tool="true" weight="0.34295416" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37181664" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49848714" weight="0.12393888" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30050933" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49848714" weight="0.22580644" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.2835314" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.88794565" visible="true" weight="0.22314675" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.88794565" visible="true" weight="0.22919819" />
       <window_info id="Web" order="2" sideWeight="0.11205433" side_tool="true" weight="0.22314675" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.2631579" />
       <window_info id="Structure" order="1" sideWeight="0.097165994" side_tool="true" weight="0.26096824" />
       <window_info id="UI Designer" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.46010187" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.25127333" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -991,19 +943,18 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.054329373" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39049235" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49848714" weight="0.26994908" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18835099" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.24957556" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39049235" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293718" />
@@ -1011,13 +962,13 @@
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3293718" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5015129" side_tool="true" weight="0.34295416" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49848714" weight="0.26994908" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37011886" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.12054329" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -1063,7 +1014,8 @@
     <MESSAGE value="Implement DATAStreamStorage" />
     <MESSAGE value="filestorage refactoring///" />
     <MESSAGE value="XML and JSON storages added" />
-    <option name="LAST_COMMIT_MESSAGE" value="XML and JSON storages added" />
+    <MESSAGE value="At last/// JSTL included!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="At last/// JSTL included!!!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1082,13 +1034,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/test/com/company/storage/AbstractStorageTest.java</url>
-          <line>86</line>
+          <line>84</line>
           <properties />
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/test/com/company/storage/AbstractStorageTest.java</url>
-          <line>85</line>
+          <line>83</line>
           <properties />
           <option name="timeStamp" value="33" />
         </line-breakpoint>
@@ -1096,7 +1048,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="45" />
+      <option name="time" value="46" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -1192,41 +1144,10 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/file_storage/923a135e-93ce-4dbc-a45d-a3a06688515b" />
-    <entry file="file://$PROJECT_DIR$/file_storage/170b59a1-2077-4e3a-9436-ce96642bbc85" />
-    <entry file="file://$PROJECT_DIR$/file_storage/18d5dc16-cad3-431b-828c-77c661e34545" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/util/LocalDateAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file_storage/2a55964a-a41d-4b02-8d2d-323029574f12" />
-    <entry file="file://$PROJECT_DIR$/file_storage/242afa33-6e92-44e9-818a-132720369616" />
-    <entry file="file://$PROJECT_DIR$/file_storage/1c511686-7494-49a1-8cb7-bda6c0bd8658" />
-    <entry file="file://$PROJECT_DIR$/file_storage/3f5b4d94-bfde-4427-9f3a-f6404207d85d" />
-    <entry file="file://$PROJECT_DIR$/file_storage/1de12935-eb5e-4fd4-9804-979b6227bdaa" />
-    <entry file="file://$PROJECT_DIR$/file_storage/94f1d54a-f5ea-46be-9522-93565cd15a01" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/model/Link.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/storage/DataStreamFileStorageAuthor.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/storage/AbstractStorage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="57" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/storage/ISStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -1301,13 +1222,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/model/Resume.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="116" column="25" selection-start-line="116" selection-start-column="25" selection-end-line="116" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/company/storage/MapStorageTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1326,13 +1240,6 @@
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/javax.servlet.jar!/javax/servlet/ServletResponse.class" />
-    <entry file="file://$PROJECT_DIR$/logging.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/storage/ConcurrencyMapStorage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1372,26 +1279,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/web/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1107" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/web/HtmlUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/company/storage/XMLFileStorageTest.java">
@@ -1408,16 +1299,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/company/storage/AbstractStorageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="39" column="53" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/company/storage/SerializedFileStorageTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1425,41 +1306,183 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/[javawebinar.ru] Практика Java. Разработка Web приложения/webapp5-master/web/WEB-INF/jsp/list.jsp">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/fragments/header.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="58" column="6" lean-forward="true" selection-start-line="46" selection-end-line="60" selection-end-column="4" />
+        <state relative-caret-position="119">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/web/ResumeServlet.java">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/fragments/footer.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-600">
-          <caret line="13" column="150" lean-forward="true" selection-start-line="13" selection-start-column="150" selection-end-line="13" selection-end-column="150" />
+        <state relative-caret-position="68">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/view.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/[javawebinar.ru] Практика Java. Разработка Web приложения/webapp5-master/web/WEB-INF/jsp/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="66" column="12" lean-forward="true" selection-start-line="66" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/web/HtmlUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logging.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/util/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/CRUDResumeApp_Web_exploded/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/storage/IStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/javax.servlet.jar!/javax/servlet/GenericServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/SectionType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/view.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1287">
-          <caret line="110" column="7" lean-forward="true" selection-start-line="110" selection-start-column="7" selection-end-line="110" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="40" column="77" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="79" />
+        <state relative-caret-position="136">
+          <caret line="35" column="74" selection-start-line="35" selection-end-line="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/Resume.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        <state relative-caret-position="62">
+          <caret line="107" column="35" selection-start-line="107" selection-start-column="16" selection-end-line="107" selection-end-column="35" />
+          <folding>
+            <element signature="e#2241#2242#0" expanded="true" />
+            <element signature="e#2282#2283#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/web/WebAppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="49" lean-forward="true" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/web/SectionHtmlType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1377#1378#0" expanded="true" />
+            <element signature="e#1442#1443#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/company/storage/AbstractStorageTestj4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="37" column="25" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/web/ResumeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/company/storage/AbstractStorageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="42" column="38" lean-forward="true" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/Section.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
         </state>
       </provider>
     </entry>
