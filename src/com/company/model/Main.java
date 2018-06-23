@@ -1,5 +1,7 @@
 package com.company.model;
 
+import com.company.storage.SqlStorage;
+
 import java.io.IOException;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
@@ -21,11 +23,14 @@ public class Main {
         Link l2 = new Link();
         System.out.println(LocalDate.now());
         System.out.println(LocalTime.now(ZoneId.of("America/Sao_Paulo")));
-        for (int i = 0; i <100 ; i++) {
-            new Thread(() -> {
-                System.out.println(Thread.currentThread().getName() + " " + Math.round(Math.random()*100));
-            }).start();
-        }
+        SqlStorage sqlStorage = new SqlStorage();
+        System.out.println(sqlStorage.toString());
+
+//        for (int i = 0; i <100 ; i++) {
+//            new Thread(() -> {
+//                System.out.println(Thread.currentThread().getName() + " " + Math.round(Math.random()*100));
+//            }).start();
+//        }
 //            Path path = Paths.get("E:\\винда 25,02\\testing\\result.doc");
 //        try {
 //            Files.lines(path).forEach(System.out::println);

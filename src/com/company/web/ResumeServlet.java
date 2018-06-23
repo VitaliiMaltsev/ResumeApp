@@ -17,7 +17,7 @@ import java.io.IOException;
 public class ResumeServlet extends HttpServlet {
     private SerializedFileStorage storage = new SerializedFileStorage("E:\\IDEA Ultimate\\java projects ultimate\\CRUDResumeApp\\file_storage");
 
-   // private IStorage storage;
+//    private IStorage storage;
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws javax.servlet.ServletException, IOException {
         request.setCharacterEncoding("UTF-8");
@@ -67,9 +67,8 @@ public class ResumeServlet extends HttpServlet {
         String uuid = request.getParameter("uuid");
         String action = request.getParameter("action");
         Resume r;
-//        SerializedFileStorage storage = new SerializedFileStorage("E:\\IDEA Ultimate\\java projects ultimate\\CRUDResumeApp\\file_storage");
 
-       // IStorage storage = WebAppConfig.get().getStorage();
+//        IStorage storage = WebAppConfig.get().getStorage();
 
         switch (action) {
             case "delete":

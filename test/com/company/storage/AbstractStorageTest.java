@@ -6,6 +6,7 @@ import org.junit.BeforeClass;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.function.Executable;
 
 import java.time.LocalDate;
 import java.time.Month;
@@ -90,8 +91,11 @@ abstract public class AbstractStorageTest {
     public void delete() throws Exception {
         storage.delete(R1.getUuid());
         Assert.assertEquals(2, storage.size());
-        Assertions.assertThrows(WebAppExeption.class, () -> {
-            storage.load(R1.getUuid());
+        Assertions.assertThrows(WebAppExeption.class, new Executable() {
+            @Override
+            public void execute() throws Throwable {
+                storage.load(R1.getUuid());
+            }
         });
     }
 
